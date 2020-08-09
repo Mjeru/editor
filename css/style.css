@@ -1,0 +1,53 @@
+* {
+    font: 1em sans-serif;
+}
+
+html,
+body {
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+    font-family: Arial;
+}
+
+.header {
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.container {
+    padding: 0;
+    text-align: center;
+}
+
+.workspace {
+    width: 800px;
+    height: 400px;
+    background-color: #ffffff;
+    display: block;
+    margin: 10px auto;
+    text-align: start;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: none;
+}
+
+.button-save,
+.button-edit,
+.button-cancel {
+    color: white;
+    padding: 10px 30px;
+    background-color: rgb(0, 153, 255);
+    margin: 10px;
+    border: none;
+}
+
+:disabled {
+    background-color: rgb(210, 229, 250);
+}
+
+.contenteditable {
+    outline: 2px solid rgb(143, 179, 255);
+}

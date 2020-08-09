@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Текстовый редактор</title>
+    <script src="script/main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header">Текстовый редактор</h1>
+
+        <form name="load" class="load-form">
+            <select name="dateSelector" class="selector"></select>
+            <button>Загрузить</button>
+        </form>
+
+        <div class="workspace"></div>
+        <div class="button-container">
+            <button class="button-edit">Редактировать</button>
+            <button class="button-save disabled" disabled>Сохранить</button>
+            <button class="button-cancel disabled" disabled>Отмена</button>
+        </div>
+    </div>
+</body>
+
+</html>
